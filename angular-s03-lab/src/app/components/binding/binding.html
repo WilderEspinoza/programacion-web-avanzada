@@ -1,0 +1,11 @@
+<section>
+    <input type="text" [value]="productoNombre">
+
+</section>
+
+<button [disabled]="seleccionado" (click)="seleccionar()">Seleccionar</button>
+
+@if(seleccionado){
+    <p>Producto seleccionado: {{ productoNombre }}</p>
+}
+    
