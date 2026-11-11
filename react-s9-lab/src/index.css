@@ -1,0 +1,10 @@
+:root { font-family: system-ui, sans-serif; color: #152240; background: #eff6ff; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.contenedor { max-width: 860px; margin: 48px auto; padding: 30px; }
+.tarjeta { background: white; border: 1px solid #cbd5e1;
+  border-radius: 12px; padding: 18px; margin: 14px 0; }
+button { margin: 8px 8px 8px 0; padding: 10px 14px; cursor: pointer; }
+nav { padding: 16px 24px; background: #07152e; display: flex; gap: 20px; }
+nav a { color: #1ee7f4; text-decoration: none; font-weight: 700; }
+a { color: #075bb1; }

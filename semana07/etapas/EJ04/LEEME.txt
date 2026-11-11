@@ -1,0 +1,9 @@
+ORDEN CORRECTO PARA ESTA ETAPA EJ04
+1) Sitúate en la RAÍZ de docente/, donde está package.json (NO dentro de etapas/EJ04).
+2) Comprueba npm install y .env en la raíz; guarda los archivos de esta etapa.
+3) Inicia con: node etapas/EJ04/src/server.js
+4) No uses npm start para esta etapa: ese script apunta a src/server.js, versión FINAL EJ07.
+5) Abre segunda terminal para realizar peticiones. Detén la primera con Ctrl+C antes de otra etapa.
+6) La guía FASE 13 construye src/ progresivamente; aquí etapas/ preserva fotografías completas de cada hito.
+
+EJ04 snapshot: desde la carpeta raiz ejecuta: node etapas/EJ04/src/server.js. Usa .env en la carpeta raiz. La carpeta mantiene el hito de clase.

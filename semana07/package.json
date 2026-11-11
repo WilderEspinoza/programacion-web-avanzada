@@ -1,0 +1,22 @@
+{
+  "name": "isil-s07-seguridad-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio educativo S07 JWT CORS bcrypt y roles",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test pruebas/EJ07_flujo.test.js",
+    "ej01": "node ejemplos/EJ01_bcrypt.js",
+    "ej02": "node ejemplos/EJ02_jwt.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
