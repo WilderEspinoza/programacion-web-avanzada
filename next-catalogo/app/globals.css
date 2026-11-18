@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f2f5fa; color: #152238; }
+header { background: #172b4d; color: white; padding: 22px; }
+header a { color: #c2f5ea; margin-right: 16px; }
+main { max-width: 900px; padding: 24px; margin: auto; }
+.card { padding: 16px; margin: 14px 0; background: white; border: 1px solid #d8e1ec; border-radius: 9px; }
+a { color: #0f5c94; } code { background: #e4e9ee; padding: 3px; }
